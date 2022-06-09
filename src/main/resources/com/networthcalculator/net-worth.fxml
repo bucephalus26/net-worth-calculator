@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.networthcalculator.Controller">
+   <children>
+      <TextField fx:id="realEstate" layoutX="20.0" layoutY="31.0" prefWidth="150.0" promptText="£" AnchorPane.bottomAnchor="345.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="30.0" />
+      <TextField fx:id="checkingAccounts" layoutX="20.0" layoutY="70.0" prefWidth="150.0" promptText="£" AnchorPane.bottomAnchor="295.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="80.0" />
+      <TextField fx:id="savingAccounts" layoutX="20.0" layoutY="114.0" prefWidth="150.0" promptText="£" AnchorPane.bottomAnchor="245.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="130.0" />
+      <TextField fx:id="retirementAccounts" layoutX="20.0" layoutY="159.0" prefWidth="150.0" promptText="£" AnchorPane.bottomAnchor="195.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="180.0" />
+      <TextField fx:id="autos" layoutX="20.0" layoutY="202.0" prefWidth="150.0" promptText="£" AnchorPane.bottomAnchor="145.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="230.0" />
+      <TextField fx:id="other" layoutX="20.0" layoutY="248.0" prefWidth="150.0" promptText="£" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="280.0" />
+      <TextField fx:id="otherDebt" layoutX="221.0" layoutY="248.0" prefWidth="150.0" promptText="£" AnchorPane.bottomAnchor="95.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="280.0" />
+      <TextField fx:id="mortgages" layoutX="221.0" layoutY="31.0" prefWidth="150.0" promptText="£" AnchorPane.bottomAnchor="345.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="30.0" />
+      <TextField fx:id="consumerDebt" layoutX="221.0" layoutY="70.0" prefWidth="150.0" promptText="£" AnchorPane.bottomAnchor="295.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="80.0" />
+      <TextField fx:id="personalLoans" layoutX="221.0" layoutY="114.0" prefWidth="150.0" promptText="£" AnchorPane.bottomAnchor="245.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="130.0" />
+      <TextField fx:id="studentLoans" layoutX="221.0" layoutY="159.0" prefWidth="150.0" promptText="£" AnchorPane.bottomAnchor="195.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="180.0" />
+      <TextField fx:id="autoLoans" layoutX="221.0" layoutY="202.0" prefWidth="150.0" promptText="£" AnchorPane.bottomAnchor="145.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="230.0" />
+      <Label layoutX="20.0" layoutY="14.0" text="Real estate" AnchorPane.bottomAnchor="370.0" AnchorPane.leftAnchor="25.0" />
+      <Label layoutX="20.0" layoutY="56.0" text="Checking accounts" AnchorPane.bottomAnchor="320.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="56.0" />
+      <Label layoutX="20.0" layoutY="95.0" text="Savings accounts" AnchorPane.bottomAnchor="270.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="113.0" />
+      <Label layoutX="24.0" layoutY="139.0" text="Retirement accounts" AnchorPane.bottomAnchor="220.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="163.0" />
+      <Label layoutX="24.0" layoutY="184.0" text="Autos" AnchorPane.bottomAnchor="170.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="213.0" />
+      <Label layoutX="24.0" layoutY="231.0" text="Other" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="263.0" />
+      <Label layoutX="225.0" layoutY="14.0" text="Mortgages" AnchorPane.bottomAnchor="370.0" />
+      <Label layoutX="225.0" layoutY="56.0" text="Consumer debt" AnchorPane.bottomAnchor="320.0" AnchorPane.topAnchor="56.0" />
+      <Label layoutX="225.0" layoutY="95.0" text="Personal loans" AnchorPane.bottomAnchor="270.0" AnchorPane.topAnchor="113.0" />
+      <Label layoutX="225.0" layoutY="139.0" text="Student loans" AnchorPane.bottomAnchor="220.0" AnchorPane.topAnchor="163.0" />
+      <Label layoutX="225.0" layoutY="184.0" text="Auto loans" AnchorPane.bottomAnchor="170.0" AnchorPane.topAnchor="213.0" />
+      <Label layoutX="225.0" layoutY="231.0" text="Other debt" AnchorPane.bottomAnchor="120.0" AnchorPane.topAnchor="263.0" />
+      <Text layoutX="21.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Net Worth" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="330.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="result" layoutX="21.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="£" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="360.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="submitButton" layoutX="229.0" layoutY="341.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+   </children>
+</AnchorPane>
